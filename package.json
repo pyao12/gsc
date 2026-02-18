@@ -1,0 +1,26 @@
+{
+  "name": "gsc",
+  "version": "1.0.0",
+  "description": "Self-hosted GitHub README stats service - lightweight, fast, no rate limits",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test"
+  },
+  "keywords": [
+    "github",
+    "readme",
+    "stats",
+    "profile",
+    "cloudflare-workers",
+    "edge",
+    "self-hosted"
+  ],
+  "author": "RapidTools <builder@rapidtools.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {}
+}
